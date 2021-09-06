@@ -1,4 +1,4 @@
-package com.curtin.game.pracgrader;
+package com.curtin.game.pracgrader.model;
 
 import com.curtin.game.pracgrader.model.Mark;
 

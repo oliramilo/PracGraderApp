@@ -17,7 +17,7 @@ public class Mark {
     }
 
     public int setDescription(String description) {
-        if(description.equals("")) {
+        if(description.trim().equals("")) {
             return 0;
         }
         this.description = description;
