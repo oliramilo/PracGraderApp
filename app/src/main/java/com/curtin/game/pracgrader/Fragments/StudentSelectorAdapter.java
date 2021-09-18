@@ -16,8 +16,6 @@ public class StudentSelectorAdapter extends RecyclerView.Adapter<StudentSelector
 
     private ArrayList<Student> studentsList;
 
-
-
     @NonNull
     @Override
     public StudentViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -37,7 +35,7 @@ public class StudentSelectorAdapter extends RecyclerView.Adapter<StudentSelector
     public static class StudentViewHolder extends RecyclerView.ViewHolder {
         Student student;
         public StudentViewHolder(LayoutInflater li, ViewGroup parent) {
-            super(li.inflate(R.layout.student_list_entry, parent, false));
+            super();
         }
 
         public void bind(Student student) {
